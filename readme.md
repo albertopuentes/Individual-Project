@@ -1,8 +1,8 @@
 ![image](https://user-images.githubusercontent.com/80718340/125523526-1595107a-2085-4c69-bd79-8a47d3f2b943.png)
 
-# Motivation/problem statement: 
+# Goals/problem statement: 
 
-Crypto markets continue to gain adoption but the lack of equity like fundamentals makes forecasting prices a challenge.  In response, traders have come to heavily rely on technical indicators which try and capture short term opportunities.  Traders monitor these indicators for signals suggesting a price movement is imminent.  The goal of this project was to identify a few common indicators, strip them of their signals, and explore whether a machine learning algorithm could leverage the same underlying metric and produce actionable investment decisions.  
+Crypto markets continue to gain adoption but the lack of equity like fundamentals makes forecasting prices a challenge.  In response, traders have come to heavily rely on technical indicators which try and capture short term opportunities.  Traders monitor these indicators for signals suggesting a price movement is imminent.  The goal of this project was to identify a few common indicators, strip them of their signals, and explore whether a machine learning algorithm could leverage the same underlying metric and produce reliable daily price 'up'/'down' predictions.  
 
 # Methods/procedure/approach: 
 
@@ -51,4 +51,4 @@ The Random Forest machine learning model was able to utilize the momentum indica
 | momentum-cross* | float64 | ratio of 50 day Close avg / 200 day Close avg |
 | OBV* | float64 | On Balance Volume |
 | MACD* | float64 | Moving Average Convergence Divergence |
-| * calculation formulas included in notebook |
+| * calculation formulas and functions included in notebook |
